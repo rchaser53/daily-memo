@@ -25,11 +25,6 @@ module.exports = {
         exclude: [/node_modules/]
       },
       {
-        test: /\.html$/,
-        loader: "html-loader",
-        exclude: [/node_modules/]
-      },
-      {
         test: /\.svg$/,
         loaders: [
           'babel-loader',
